@@ -1,0 +1,38 @@
+<Document id="@tipo">
+	<Placemark>
+		<name>Roma</name>
+		<description>Paseo por el famoso barrio de Trastevere, conocido por su gran ambiente y una amtmósfera típica de los grandes clásicos del cine italiano</description>
+		<Point>
+			<coordinates>12.466848,
+              41.888645,
+              55</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Iglesia de San Pietro in Montorio</name>
+		<description>San Pietro in Montorio (en castellano «San Pedro en el monte de oro») es un convento de franciscanos españoles en Roma. Actualmente la iglesia sigue abierta al culto y en los antiguos claustros está instalada la Academia de España en Roma. En el primer patio se levanta el famoso tempietto de Bramante.</description>
+		<Point>
+			<coordinates>12.466690,
+                41.888621,
+                57</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Piazza di Santa Maria in Trastevere</name>
+		<description>Ubicada en el corazón del barrio, la plaza contiene la fuente en la Piazza Santa Maria in Trastevere ubicada frente a la iglesia de Santa Maria in Trastevere. Se cree que es la fuente más antigua de Roma, que se remonta, según algunas fuentes, al siglo VIII. esta plaza es el nexo de la gran mayoría de calles del barrio asi como un lugar de encuentro para los habitantes de la zona.</description>
+		<Point>
+			<coordinates>12.470240,
+                41.889462,
+                15</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ponte Sisto</name>
+		<description>El puente fue construido por el Papa Sixto IV entre 1473 y 1479 para permitir el cruce del Tíber, en la ubicación de un puente romano más antiguo. Une las dos orillas del río entre la Via del Pettinari y la Piazza Trilussa.</description>
+		<Point>
+			<coordinates>12.470786,
+                41.892349,
+                18</coordinates>
+		</Point>
+	</Placemark>
+</Document>

@@ -1,0 +1,38 @@
+<Document id="@tipo">
+	<Placemark>
+		<name>Roma</name>
+		<description>Ruta por una de las 7 colinas de Roma, el Gianicolo, la cual alberga dos de los mejores miradores de la ciudad mediante los cuales se pueden obeservar la belleza de esta histórica ciudad.</description>
+		<Point>
+			<coordinates>12.463605,
+              41.889005,
+              68</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Fontana dell'Acqua Paola</name>
+		<description>La Fontana dell'Acqua Paola, también conocida como Il Fontanone, es una fuente monumental ubicada en la colina Janiculum, cerca de la iglesia de San Pietro in Montorio, en Roma, Italia. Fue construido en 1612 para marcar el final del acueducto Acqua Paola, restaurado por el papa Pablo V, y tomó su nombre de él.</description>
+		<Point>
+			<coordinates>12.464351,
+                41.888912,
+                66</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Terraza del Gianicolo</name>
+		<description>Esta terraza en el punto más alto de la colina otorga una de las mejores que la ciudad puede ofrecer</description>
+		<Point>
+			<coordinates>12.460892,
+                41.891485,
+                80</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Faro del Gianicolo</name>
+		<description>Edificado en 1911, el Faro del Gianicolo es un símbolo en representación de los italianos que emigraron a Argentina y demás paises de América latina a inicios del siglo pasado. No tiene un uso práctico debido a su localización pero es uno de los monumentos mas notorios del parque del Gianicolo</description>
+		<Point>
+			<coordinates>12.460927,
+                41.894716,
+                70</coordinates>
+		</Point>
+	</Placemark>
+</Document>

@@ -1,0 +1,209 @@
+  /**Especifidad  001**/
+  html{
+    background-image: url(fondo3.png);
+  }
+  
+  /**Especifidad  001**/
+  body{
+    color:white;
+    background-color: darkgray;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+        "elementoheader elementoheader"
+        "elementonav elementonav"
+        "elementomain elementomain"
+        "elementofooter elementofooter";
+    font: 400 15px Georgia, serif;
+    line-height: 1.9;
+    
+    padding: 3em;
+  }
+  /**Especifidad  001**/
+  header{
+    color:black;
+  }
+  
+  /**Especifidad  001**/
+  header, nav, main, footer{
+    padding: 15px;
+    border: 8px;
+  }
+
+  /**Especifidad  001**/
+  header{
+    grid-area:elementoheader;
+  }
+    
+  /**Especifidad  001**/
+  nav{
+    grid-area:elementonav;
+    justify-content:center;
+    color:black;
+    }
+
+  /**Especifidad 002**/
+  nav ul{
+    background: rgba(250, 212, 186, 0.7);
+    padding:0.5em;
+    border: solid 5px white;
+  }
+
+  /**Especifidad 003**/
+  nav ul li {
+    text-align: center;
+    padding: 0.7em;
+  }
+  
+  /**Especifidad 004**/
+  nav ul li a{
+    font-size: 1em;
+    padding: 0.2em;
+    border: solid 1px black; 
+    text-align: left;
+    color: black;
+    
+  }
+    
+    /**Especifidad  001**/
+  main{
+    grid-area:elementomain;
+   }
+
+   /**Especifidad  001**/
+  section{ 
+    background-color:  rgba(250, 212, 186, 0.7);
+    border: solid 5px white; 
+    color:black;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+
+  /**Especifidad  001**/
+  footer{
+    grid-area: elementofooter;
+    justify-content: left;
+    background-color: rgba(250, 212, 186, 0.7);
+    border: solid 5px white; 
+    color:black;
+    text-align: left;
+    padding-right: 0.5em;
+  }
+  
+  /**Especifidad 003**/
+  footer img{
+    border:0px;
+    padding:0.5em;
+    box-shadow: 0px 0px 0px 0px;
+  }
+
+  
+  
+  /**Especifidad  001**/
+  h1, h2, h3, h4, h5, h6{
+    font-family: Helvetica, Verdana, sans-serif;
+    font-style: normal;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    
+    
+  }
+
+  /**Especifidad 001**/
+  h1{
+    font-size: 4.0em;
+    text-transform: uppercase;
+    text-align: center; 
+    border: solid 5px white;
+  }
+  
+  
+  /**Especifidad 002**/
+  h2::first-letter{
+    font-family: initial;
+    font-size: 1.5em;  
+    font-weight: bold;
+  }
+
+  /**Especifidad 002**/
+  h3::first-letter{
+    font-family: initial;
+    font-size: 1.25em;  
+    font-weight: bold;
+    
+  }
+  /**Especifidad  001**/
+  h2{
+    text-align: center; 
+    border: solid 1px black;
+  }
+
+  /**Especifidad  001**/
+  p{
+    padding: 1.5em;
+  }
+  
+  p.parrafoTemporadas{
+      text-align: center;
+  }
+  /**Especifidad 011**/
+  video{
+    float: left;
+    margin:0px 10px 10px 0px;
+    padding-right:1em;
+    padding-left:1em;
+    height:auto;
+    max-width:100%;
+  }
+  
+  /**Especifidad  001**/
+  figure{
+    display: block;
+    float: left;
+    margin:0px 10px 10px 0px;
+    height:auto;
+    max-width:100%;
+    padding-right:1.5em;
+    padding-left:1.5em;
+  }
+  /**Especifidad 011**/
+   img{
+    display: block;
+    float: left;
+    margin:0px 20px 20px 0px;
+    height:auto;
+    max-width:100%;
+  }
+  /**Especifidad  001**/
+  table{
+    align-content: center;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    padding:0.5em;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  /**Especifidad 002**/
+  table td,table th{
+   
+    border: 1px solid white;
+    padding: 0.5em;
+  }
+  
+  /**Especifidad  001**/
+  th{
+    background-color:rgb(160, 146, 153);
+    text-align: center;
+    font-style: normal;
+  }
+  
+  /**Especifidad  001**/
+  td{
+    background-color:white;
+  }
+  
+  
+ 
+

@@ -1,0 +1,12 @@
+ObtainMetaRoute es una sencilla aplicación Java cuya misión es generar un archivo XML con información resumida de cada una de las rutas que contiene el archivo .xml que lee. Genera tantos arvhicos XML como rutas haya .
+
+El formato de lectura de archivos XML es el generado por el alumno, debido a que se ciñe al formato del archivo sobre el que se ha realizado la práctica.
+El archivo rutas.xml en la carpeta Pruebas es el empleado para generar los ficheros contenidos en la carpeta Resultados.
+
+INSTRUCCIONES DE USO:
+La interfaz de la aplicación consta de dos botones: uno para examinar los archivos del sistema y poder seleccionar el archivo .xml y otro para comenzar el proceso de generación de archivos. No se puede ejecutar el proceso sin antes haber seleccionado un archivo. Una vez ejecutado el programa este notificará que los archivos han sido generados y podrá consultarlos en el escritorio de su sistema.
+
+App realizada con Java Versión 8 Actualiuzación 221 (compilación 1.8.0_221-b11)
+Versión jdk-10 del JRE System Library.
+
+Creado en Eclipse IDE  2019-09 R (4.13.0)

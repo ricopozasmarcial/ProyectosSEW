@@ -1,0 +1,34 @@
+<!ELEMENT rutas (ruta)+>
+<!ELEMENT ruta (tipo, transporte, duracion, agencia, descripcion, personas, lugar, direccion, coordenadas, recomendacion, bibliografías, etapas+)>
+<!ELEMENT etapas (etapa)+>
+<!ELEMENT etapa (nombre, descripcion, coordenadas, distancia, fotos+)>
+<!ELEMENT bibliografías (bibliografía*)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT transporte (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT agencia (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT personas (#PCDATA)>
+<!ELEMENT coordenadas (#PCDATA)>
+<!ELEMENT lugar (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT recomendacion (#PCDATA)>
+<!ELEMENT bibliografía (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT distancia (#PCDATA)>
+<!ELEMENT fotos (foto+)>
+<!ELEMENT foto (#PCDATA)>
+<!ATTLIST ruta
+		  titulo CDATA #REQUIRED>
+<!ATTLIST coordenadas
+		  longitud CDATA #REQUIRED>
+<!ATTLIST coordenadas
+		  latitud  CDATA #REQUIRED>
+<!ATTLIST coordenadas
+		  altitud CDATA #REQUIRED>
+<!ATTLIST distancia
+		  km CDATA #REQUIRED>
+<!ATTLIST foto
+		  link CDATA #REQUIRED>
+<!ATTLIST bibliografía
+		  link CDATA #REQUIRED>

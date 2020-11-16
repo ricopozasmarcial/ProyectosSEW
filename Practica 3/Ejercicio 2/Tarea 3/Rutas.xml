@@ -1,0 +1,239 @@
+<?xml version= "1.0" encoding = "UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="googleEarth.xsl"?>
+<rutas>
+	<ruta titulo = "Ruta por la Roma antigua">
+		<tipo>Urbana con toques clásicos de la Roma antigua</tipo>
+		<transporte>En transporte público o a pie</transporte>
+        <duracion>Alrededor de dos horas</duracion>
+		<agencia>Sin agencia</agencia>
+		<descripcion> Ruta por los restos de las antiguas edificaciones romanas de más de 2000 años de antigüedad distribuidas por toda la ciudad. En ella se visitrarán lugares emblemáticos como el Coliseo, El Arco de Constantino, El Foro Romano y El Foro Imperial</descripcion>
+		<personas>Apta para todos los públicos</personas>
+		<lugar>Roma</lugar>
+        <direccion>Piazza del Colosseo</direccion>
+		<coordenadas  latitud = "41.890950" longitud="12.493021" altitud = "21"></coordenadas>
+        <recomendacion>8</recomendacion>
+		<bibliografías>
+			<bibliografía link= "https://en.wikipedia.org/wiki/Rome"></bibliografía>
+			<bibliografía link= "https://www.comune.roma.it/web/it/home.page"></bibliografía>
+			<bibliografía link= "https://www.viajeroscallejeros.com/lugares-que-visitar-roma-imprescindibles/"></bibliografía>
+		</bibliografías>
+		<etapas>
+			<etapa>
+                <nombre>Coliseo</nombre>
+				<descripcion>EL monumento por excelencia de Roma, fue fundado en el año 80DC y desde entonces ha tenido multitud de usos.En el lugar donde se levantó el Coliseo se encontraba anteriormente el lago artificial de la Domus Aurea de Nerón, que Vespasiano mandó a rellenar para poder construir este circo.</descripcion>
+				<coordenadas  latitud = "41.889452" longitud="12.493424" altitud = "28"></coordenadas>
+				<distancia km = "0.160" ></distancia>
+				<fotos>
+					<foto link="mmedia/Coliseo.jpg"></foto>
+				</fotos>
+			</etapa>
+			<etapa>
+                <nombre>Foro Romano</nombre>
+				<descripcion>El primer Foro Romano se construyó en la época republicana, en un valle entre los Montes Palatino, Quirinal y Capitolio. Alrededor del año 500 AC había en ese lugar un pantano  que fue desecado para construir un mercado.</descripcion>
+				<coordenadas  latitud = "41.892469" longitud="12.485324" altitud = "11"></coordenadas>
+				<distancia km = "0.752" ></distancia>
+				<fotos>
+					<foto link="mmedia/ForoRomano.jpg"></foto>
+				</fotos>
+			</etapa>
+			<etapa>
+                <nombre>Altar de la Patria</nombre>
+				<descripcion>El monumento nacional a Víctor Manuel II (en italiano: Monumento Nazionale a Vittorio Emanuele II), también conocido como Altare della Patria (Altar de la Patria), o simplemente Il Vittoriano, es un enorme monumento conmemorativo de la ciudad de Roma, Italia, realizado en honor del primer rey de la Italia unificada, Víctor Manuel II.</descripcion>
+				<coordenadas latitud = "41.895332"  longitud="12.482732" altitud = "19"></coordenadas>
+				<distancia km = "0.388" ></distancia>
+				<fotos>
+					<foto link="mmedia/Altar.jpg"></foto>
+				</fotos>
+			</etapa>
+		</etapas>
+	</ruta>
+
+
+	<ruta titulo = "Ruta por el Gianicolo">
+		<tipo>Ruta por una de las 7 colinas de Roma</tipo>
+		<transporte>A pie</transporte>
+        <duracion>Alrededor de media hora</duracion>
+		<agencia>Sin agencia</agencia>
+		<descripcion>Ruta por una de las 7 colinas de Roma, el Gianicolo, la cual alberga dos de los mejores miradores de la ciudad mediante los cuales se pueden obeservar la belleza de esta histórica ciudad.</descripcion>
+		<personas>Apta para todos los públicos</personas>
+		<lugar>Roma</lugar>
+        <direccion>Via Garibaldi</direccion>
+		<coordenadas  latitud = "41.889005" longitud="12.463605" altitud = "68"></coordenadas>
+       <recomendacion>8</recomendacion>
+		<bibliografías>
+			<bibliografía link= "https://en.wikipedia.org/wiki/Fontana_dell'Acqua_Paola"></bibliografía>
+			<bibliografía link= "https://www.viveroma.net/gianicolo"></bibliografía>
+			<bibliografía link= "https://saltaconmigo.com/blog/2012/10/gianicolo-del-trastevere-al-vaticano/"></bibliografía>
+		</bibliografías>
+		<etapas>
+			<etapa>
+                <nombre>Fontana dell'Acqua Paola</nombre>
+				<descripcion>La Fontana dell'Acqua Paola, también conocida como Il Fontanone, es una fuente monumental ubicada en la colina Janiculum, cerca de la iglesia de San Pietro in Montorio, en Roma, Italia. Fue construido en 1612 para marcar el final del acueducto Acqua Paola, restaurado por el papa Pablo V, y tomó su nombre de él.</descripcion>
+				<coordenadas  latitud = "41.888912" longitud="12.464351" altitud = "66"></coordenadas>
+				<distancia km = "0.065" ></distancia>
+				<fotos>
+					<foto link="mmedia/Fontanone.jpg"></foto>
+				</fotos>
+			</etapa>
+			<etapa>
+                <nombre>Terraza del Gianicolo</nombre>
+				<descripcion>Esta terraza en el punto más alto de la colina otorga una de las mejores que la ciudad puede ofrecer</descripcion>
+				<coordenadas  latitud = "41.891485" longitud="12.460892" altitud = "80"></coordenadas>
+				<distancia km = "0.404" ></distancia>
+				<fotos>
+					<foto link="mmedia/Terraza.jpg"></foto>
+				</fotos>
+			</etapa>
+			<etapa>
+                <nombre>Faro del Gianicolo</nombre>
+				<descripcion>Edificado en 1911, el Faro del Gianicolo es un símbolo en representación de los italianos que emigraron a Argentina y demás paises de América latina a inicios del siglo pasado. No tiene un uso práctico debido a su localización pero es uno de los monumentos mas notorios del parque del Gianicolo</descripcion>
+				<coordenadas  latitud = "41.894716" longitud="12.460927" altitud = "70"></coordenadas>
+				<distancia km = "0.355" ></distancia>
+				<fotos>
+					<foto link="mmedia/Faro.jpg"></foto>
+				</fotos>
+			</etapa>
+		</etapas>
+	</ruta>
+
+	<ruta titulo = "Paseo por Trastevere">
+		<tipo>Paseo por el barrio de ambiente italiano</tipo>
+		<transporte>A pie o en bicicleta</transporte>
+        <duracion>Alrededor de 1 hora</duracion>
+		<agencia>Sin agencia</agencia>
+		<descripcion>Paseo por el famoso barrio de Trastevere, conocido por su gran ambiente y una amtmósfera típica de los grandes clásicos del cine italiano</descripcion>
+		<personas>Apta para todos los públicos</personas>
+		<lugar>Roma</lugar>
+        <direccion>Piazza di S. Pietro in Montorio</direccion>
+		<coordenadas  latitud = "41.888645" longitud="12.466848" altitud = "55"></coordenadas>
+        <recomendacion>8</recomendacion>
+		<bibliografías>
+			<bibliografía link= "https://es.wikipedia.org/wiki/Templete_de_San_Pietro_in_Montorio"></bibliografía>
+			<bibliografía link= "https://www.lonelyplanet.com/italy/rome/attractions/piazza-trilussa/a/poi-sig/1614516/359975"></bibliografía>
+			<bibliografía link= "https://www.viajeroscallejeros.com/lugares-que-visitar-roma-imprescindibles/"></bibliografía>
+		</bibliografías>
+		<etapas>
+			<etapa>
+                <nombre>Iglesia de San Pietro in Montorio</nombre>
+				<descripcion>San Pietro in Montorio (en castellano «San Pedro en el monte de oro») es un convento de franciscanos españoles en Roma. Actualmente la iglesia sigue abierta al culto y en los antiguos claustros está instalada la Academia de España en Roma. En el primer patio se levanta el famoso tempietto de Bramante.</descripcion>
+				<coordenadas  latitud = "41.888621" longitud="12.466690" altitud = "57"></coordenadas>
+				<distancia km = "0.014" ></distancia>
+				<fotos>
+					<foto link="mmedia/Montorio.jpg"></foto>
+				</fotos>
+			</etapa>
+			<etapa>
+                <nombre>Piazza di Santa Maria in Trastevere</nombre>
+				<descripcion>Ubicada en el corazón del barrio, la plaza contiene la fuente en la Piazza Santa Maria in Trastevere ubicada frente a la iglesia de Santa Maria in Trastevere. Se cree que es la fuente más antigua de Roma, que se remonta, según algunas fuentes, al siglo VIII. esta plaza es el nexo de la gran mayoría de calles del barrio asi como un lugar de encuentro para los habitantes de la zona.</descripcion>
+				<coordenadas latitud = "41.889462" longitud="12.470240" altitud = "15"></coordenadas>
+				<distancia km = "0.308" ></distancia>
+				<fotos>
+					<foto link="mmedia/Maria.jpg"></foto>
+				</fotos>
+			</etapa>
+			<etapa>
+                <nombre>Ponte Sisto</nombre>
+				<descripcion>El puente fue construido por el Papa Sixto IV entre 1473 y 1479 para permitir el cruce del Tíber, en la ubicación de un puente romano más antiguo. Une las dos orillas del río entre la Via del Pettinari y la Piazza Trilussa.</descripcion>
+				<coordenadas latitud = "41.892349" longitud="12.470786"  altitud = "18"></coordenadas>
+				<distancia km = "0.322" ></distancia>
+				<fotos>
+					<foto link="mmedia/Ponte.jpg"></foto>
+				</fotos>
+			</etapa>
+		</etapas>
+	</ruta>
+
+	<ruta titulo = "Grandes Monumentos de Roma I">
+		<tipo>Ruta que recorre algunos de los grandes monumentos de Roma</tipo>
+		<transporte>A pie, en bicicleta o en transporte público</transporte>
+        <duracion>Alrededor de 3 hora</duracion>
+		<agencia>Sin agencia</agencia>
+		<descripcion>Ruta que recorre algunos de los monumentos más emblemáticos de la ciudad como el Altar de la Patria, el Vaticano o el Pantheon</descripcion>
+		<personas>Apta para todos los públicos</personas>
+		<lugar>Roma</lugar>
+        <direccion>Via di S. Venanzio</direccion>
+		<coordenadas  latitud = "41.894604" longitud="12.481239" altitud = "19"></coordenadas>
+        <recomendacion>8</recomendacion>
+		<bibliografías>
+			<bibliografía link= "https://es.wikipedia.org/wiki/Ciudad_del_Vaticano"></bibliografía>
+			<bibliografía link= "https://romeonsegway.com/10-facts-about-the-pantheon/"></bibliografía>
+			<bibliografía link= "https://www.italy-villas.es/en-italia/2015/centro-de-italia/lacio/altare-della-patria-roma"></bibliografía>
+		</bibliografías>
+		<etapas>
+			<etapa>
+                <nombre>Altar de la Patria</nombre>
+				<descripcion>El monumento nacional a Víctor Manuel II (en italiano: Monumento Nazionale a Vittorio Emanuele II), también conocido como Altare della Patria (Altar de la Patria), o simplemente Il Vittoriano, es un enorme monumento conmemorativo de la ciudad de Roma, Italia, realizado en honor del primer rey de la Italia unificada, Víctor Manuel II.</descripcion>
+				<coordenadas latitud = "41.895332"  longitud="12.482732" altitud = "19"></coordenadas>
+				<distancia km = "0.150" ></distancia>
+				<fotos>
+					<foto link="mmedia/Altar.jpg"></foto>
+				</fotos>
+			</etapa>
+			<etapa>
+                <nombre>Pantheon</nombre>
+				<descripcion>El Panteón de Agripa o Panteón de Roma es un antiguo templo romano, en la actualidad una iglesia, situado en la ciudad de Roma, en el lugar de un anterior templo encargado por Marco Agripa durante el gobierno de Augusto. Fue terminado por orden del emperador Adriano y dedicado alrededor del año 126.</descripcion>
+				<coordenadas latitud = "41.899037" longitud="12.476787" altitud = "11"></coordenadas>
+				<distancia km = "0.641" ></distancia>
+				<fotos>
+					<foto link="mmedia/Pantheon.jpg"></foto>
+				</fotos>
+			</etapa>
+			<etapa>
+                <nombre>Plaza de San Pietro</nombre>
+				<descripcion>La plaza de San Pedro es un espacio urbano abierto que se sitúa en la Ciudad del Vaticano, dentro de la ciudad de Roma, y precede, a modo de gran sala períptera, a la Basílica de San Pedro, el magno templo del catolicismo. Fue enteramente proyectada por Gian Lorenzo Bernini entre 1656 y 1667.</descripcion>
+				<coordenadas latitud = "41.902295" longitud="12.457612"  altitud = "17"></coordenadas>
+				<distancia km = "1.633" ></distancia>
+				<fotos>
+					<foto link="mmedia/Vaticano.jpg"></foto>
+				</fotos>
+			</etapa>
+		</etapas>
+	</ruta>
+
+	<ruta titulo = "Grandes Monumentos de Roma II">
+		<tipo>Ruta que recorre algunos de los grandes monumentos de Roma</tipo>
+		<transporte>A pie, en bicicleta o en transporte público</transporte>
+        <duracion>Alrededor de 3 hora</duracion>
+		<agencia>Sin agencia</agencia>
+		<descripcion>Ruta que recorre algunos de los monumentos más emblemáticos de la ciudad como el Coliseo, Piazza Navona o Piazza del Popolo</descripcion>
+		<personas>Apta para todos los públicos</personas>
+		<lugar>Roma</lugar>
+         <direccion>Piazza del Colosseo</direccion>
+		<coordenadas  latitud = "41.890950" longitud="12.493021" altitud = "21"></coordenadas>
+        <recomendacion>8</recomendacion>
+		<bibliografías>
+			<bibliografía link= "https://en.wikipedia.org/wiki/Piazza_del_Popolo"></bibliografía>
+			<bibliografía link= "https://es.wikipedia.org/wiki/Coliseo"></bibliografía>
+			<bibliografía link= "https://es.wikipedia.org/wiki/Plaza_Navona"></bibliografía>
+		</bibliografías>
+		<etapas>
+			<etapa>
+                <nombre>Coliseo</nombre>
+				<descripcion>EL monumento por excelencia de Roma, fue fundado en el año 80DC y desde entonces ha tenido multitud de usos.En el lugar donde se levantó el Coliseo se encontraba anteriormente el lago artificial de la Domus Aurea de Nerón, que Vespasiano mandó a rellenar para poder construir este circo.</descripcion>
+				<coordenadas  latitud = "41.889452" longitud="12.493424" altitud = "28"></coordenadas>
+				<distancia km = "0.160" ></distancia>
+				<fotos>
+					<foto link="mmedia/Coliseo.jpg"></foto>
+				</fotos>
+			</etapa>
+			<etapa>
+                <nombre>Piazza Navona</nombre>
+				<descripcion>La plaza Navona (Piazza Navona en italiano) es uno de los espacios urbanos más destacados de Roma, que reúne esculturas, fuentes y edificios de gran valor artístico y supone un centro de la vida social, cultural y turística de la ciudad.</descripcion>
+				<coordenadas latitud = "41.899194" longitud="12.473111" altitud = "13"></coordenadas>
+				<distancia km = "2.003" ></distancia>
+				<fotos>
+					<foto link="mmedia/Navona.jpg"></foto>
+				</fotos>
+			</etapa>
+			<etapa>
+                <nombre>Piazza del Popolo</nombre>
+				<descripcion>La plaza y la puerta homónima son un magnífico ejemplo de «estratificación» arquitectónica, un fenómeno que se ha producido gracias a las continuas alternancias de pontífices, que ordenaban modificaciones o renovaciones de las obras arquitectónicas y urbanísticas.</descripcion>
+				<coordenadas latitud = "41.910613" longitud="12.476250"  altitud = "14"></coordenadas>
+				<distancia km = "1.300" ></distancia>
+				<fotos>
+					<foto link="mmedia/Popolo.jpg"></foto>
+				</fotos>
+			</etapa>
+		</etapas>
+	</ruta>
+</rutas>

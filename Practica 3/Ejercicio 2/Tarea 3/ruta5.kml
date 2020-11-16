@@ -1,0 +1,38 @@
+<Document id="@tipo">
+	<Placemark>
+		<name>Roma</name>
+		<description>Ruta que recorre algunos de los monumentos más emblemáticos de la ciudad como el Altar de la Patria, el Vaticano o el Pantheon</description>
+		<Point>
+			<coordinates>12.481239,
+              41.894604,
+              19</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Altar de la Patria</name>
+		<description>El monumento nacional a Víctor Manuel II (en italiano: Monumento Nazionale a Vittorio Emanuele II), también conocido como Altare della Patria (Altar de la Patria), o simplemente Il Vittoriano, es un enorme monumento conmemorativo de la ciudad de Roma, Italia, realizado en honor del primer rey de la Italia unificada, Víctor Manuel II.</description>
+		<Point>
+			<coordinates>12.482732,
+                41.895332,
+                19</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pantheon</name>
+		<description>El Panteón de Agripa o Panteón de Roma es un antiguo templo romano, en la actualidad una iglesia, situado en la ciudad de Roma, en el lugar de un anterior templo encargado por Marco Agripa durante el gobierno de Augusto. Fue terminado por orden del emperador Adriano y dedicado alrededor del año 126.</description>
+		<Point>
+			<coordinates>12.476787,
+                41.899037,
+                11</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Plaza de San Pietro</name>
+		<description>La plaza de San Pedro es un espacio urbano abierto que se sitúa en la Ciudad del Vaticano, dentro de la ciudad de Roma, y precede, a modo de gran sala períptera, a la Basílica de San Pedro, el magno templo del catolicismo. Fue enteramente proyectada por Gian Lorenzo Bernini entre 1656 y 1667.</description>
+		<Point>
+			<coordinates>12.457612,
+                41.902295,
+                17</coordinates>
+		</Point>
+	</Placemark>
+</Document>

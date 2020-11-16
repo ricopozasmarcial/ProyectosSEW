@@ -1,0 +1,9 @@
+document.write("<p>");
+document.write(information.anio);
+document.write("</p>");
+document.write("<p>");
+document.write(information.nombreEstudiante);
+document.write("</p>");
+document.write("<p>");
+document.write(information.emailEstudiante);
+document.write("</p>");

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/rutas" elementFormDefault="qualified" targetNamespace="http://tempuri.org/rutas" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="rutas">
+    <xs:complexType>
+      <xs:sequence minOccurs="5" maxOccurs="unbounded">
+        <xs:element ref="ruta" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ruta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tipo" />
+        <xs:element ref="transporte" />
+        <xs:element ref="duracion" />
+        <xs:element ref="agencia" />
+        <xs:element ref="descripcion" />
+        <xs:element ref="personas" />
+        <xs:element ref="lugar" />
+        <xs:element ref="direccion" />
+        <xs:element ref="coordenadas" />
+        <xs:element ref="recomendacion" />
+        <xs:element ref="bibliografías" />
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="etapas" />
+      </xs:sequence>
+      <xs:attribute name="titulo" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="etapas">
+    <xs:complexType>
+      <xs:sequence minOccurs="3" maxOccurs="unbounded">
+        <xs:element ref="etapa" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="etapa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombre" />
+        <xs:element ref="descripcion" />
+        <xs:element ref="coordenadas" />
+        <xs:element ref="distancia" />
+        <xs:element minOccurs="1" maxOccurs="5" ref="fotos" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bibliografías">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="3" maxOccurs="unbounded" ref="bibliografía" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tipo" type="xs:string" />
+  <xs:element name="transporte" type="xs:string" />
+  <xs:element name="duracion" type="xs:string" />
+  <xs:element name="agencia" type="xs:string" />
+  <xs:element name="descripcion" type="xs:string" />
+  <xs:element name="personas" type="xs:string" />
+  <xs:element name="coordenadas">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="longitud" type="xs:decimal" use="required" />
+          <xs:attribute name="latitud" type="xs:decimal" use="required" />
+          <xs:attribute name="altitud" type="xs:unsignedShort" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="lugar" type="xs:string" />
+  <xs:element name="direccion" type="xs:string" />
+  <xs:element name="recomendacion" type="xs:unsignedShort" />
+  <xs:element name="bibliografía">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="link" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nombre" type="xs:string" />
+  <xs:element name="distancia">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="km" type="xs:decimal" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fotos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="5" ref="foto" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="foto">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="link" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

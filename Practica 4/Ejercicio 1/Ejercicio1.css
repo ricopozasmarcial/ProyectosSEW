@@ -1,0 +1,48 @@
+/**Especifidad  001**/
+html{
+    background-color: darkgray;
+  }
+
+  /**Especifidad  001**/
+  h1, h2, h3, h4{
+    font-family: Helvetica, Verdana, sans-serif;
+    font-style: normal;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    
+    
+  }
+
+  /**Especifidad 001**/
+  h1{
+    font-size: 4.0em;
+    text-transform: uppercase;
+    text-align: center; 
+    border: solid 5px white;
+  }
+  
+  
+  /**Especifidad 002**/
+  h2::first-letter{
+    font-family: initial;
+    font-size: 1.5em;  
+    font-weight: bold;
+  }
+
+  /**Especifidad 002**/
+  h3::first-letter{
+    font-family: initial;
+    font-size: 1.25em;  
+    font-weight: bold;
+    
+  }
+  /**Especifidad  001**/
+  h2{
+    text-align: center; 
+    border: solid 1px black;
+  }
+
+  /**Especifidad  001**/
+  p{
+    padding: 1.5em;
+  }

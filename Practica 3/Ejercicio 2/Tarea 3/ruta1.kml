@@ -1,0 +1,38 @@
+<Document id="@tipo">
+	<Placemark>
+		<name>Roma</name>
+		<description> Ruta por los restos de las antiguas edificaciones romanas de más de 2000 años de antigüedad distribuidas por toda la ciudad. En ella se visitrarán lugares emblemáticos como el Coliseo, El Arco de Constantino, El Foro Romano y El Foro Imperial</description>
+		<Point>
+			<coordinates>12.493021,
+              41.890950,
+              21</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Coliseo</name>
+		<description>EL monumento por excelencia de Roma, fue fundado en el año 80DC y desde entonces ha tenido multitud de usos.En el lugar donde se levantó el Coliseo se encontraba anteriormente el lago artificial de la Domus Aurea de Nerón, que Vespasiano mandó a rellenar para poder construir este circo.</description>
+		<Point>
+			<coordinates>12.493424,
+                41.889452,
+                28</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Foro Romano</name>
+		<description>El primer Foro Romano se construyó en la época republicana, en un valle entre los Montes Palatino, Quirinal y Capitolio. Alrededor del año 500 AC había en ese lugar un pantano  que fue desecado para construir un mercado.</description>
+		<Point>
+			<coordinates>12.485324,
+                41.892469,
+                11</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Altar de la Patria</name>
+		<description>El monumento nacional a Víctor Manuel II (en italiano: Monumento Nazionale a Vittorio Emanuele II), también conocido como Altare della Patria (Altar de la Patria), o simplemente Il Vittoriano, es un enorme monumento conmemorativo de la ciudad de Roma, Italia, realizado en honor del primer rey de la Italia unificada, Víctor Manuel II.</description>
+		<Point>
+			<coordinates>12.482732,
+                41.895332,
+                19</coordinates>
+		</Point>
+	</Placemark>
+</Document>
